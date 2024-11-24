@@ -1,1 +1,40 @@
+CCITDevOps :
+SCCM - source code condrol (to track only one file 1972)
+RCS - revision control system (Track multer file but not directories)
+CVSM - Concurrent version control (track multiple files and directories but single user)
+SVN - Sub Version (save the information in single server)
+     it work on CVCS--Centralized version control system.
+GIT - global information tracker (save information in multiple server)
+     it work on distrubuted version control system.
+GIT Arcitecture/stages :-
+             working directory
+    git add---      |
+              stagging area
+                    |     ---git commit
+                repository
+
+  working directory-
+wd -- where we used to store poject or app related data
+staging area -- where developers are used to write a code 
+repository -- store our app data in the cloud.
+
+
+local                                         remote
+git                                           github
+ git alternative 
+how to install git in local system (through unbuntu)
+create directory- mkdir git
+open directory- cd git
+install git or starting git by ** git init
+create file- touch index.html
+then to add to git ** git add index.html
+then we commit on git ** git commit -m "first commit" index.html
+then git identity as gmail and name like ** config user.email " user email"
+                                         ** config user.name " user name"
+
+then finally ** git commit -m "file name" index.html
+
+
+
+
 
